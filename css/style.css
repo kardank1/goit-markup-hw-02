@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;  
     background-color: #FFFFFF;
-    color: #2E2F42;
+    color: #434455;
 }
 
 a{
@@ -13,38 +13,43 @@ ul, ol{
 }
 
 .logo{
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
+    color: #4d5ae5;
     font-style: normal;
     font-weight: 700;
-    line-height: 116.667%;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
 .logo .logo-web{
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
-.menu-link{
+.menu-item{
     font-size: 16px;
+    color: #2E2F42;
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.32px;
 }
 
-.menu-link:hover, .menu-link:focus{
+.menu-item:hover, .menu-item:focus{
     color: #404BBF;
 }
 
-.main-address-item{
-    color: #434455;
+.main-address{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
     letter-spacing: 0.32px;
+}
+
+.main-address-link:hover, .main-address-link:focus{
+    color: #404bbf;
 }
 
 .hero{
@@ -65,6 +70,11 @@ ul, ol{
     border-radius: 4px;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    line-height: 1,5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    font-size: 16px;
     cursor: pointer;
 }
 
@@ -72,13 +82,7 @@ ul, ol{
     background-color: #404BBF;
 }
 
-.hero-button-text{
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 150%;
-    letter-spacing: 0.64px;
-}
+
 
 .benefits{
     background-color: #FFFFFF;
@@ -86,6 +90,7 @@ ul, ol{
 
 .benefits-title{
     font-size: 20px;
+    color: #2E2F42;
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
@@ -93,7 +98,6 @@ ul, ol{
 }
 
 .benefits-text{
-    color: #434455;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.32px;
@@ -105,6 +109,7 @@ ul, ol{
 
 .team-title{
     text-align: center;
+    color: #2E2F42;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -119,6 +124,7 @@ ul, ol{
 
 .team-name{
     text-align: center;
+    color: #2E2F42;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -127,7 +133,6 @@ ul, ol{
 }
 
 .team-description{
-    color: #434455;
     text-align: center;
     font-size: 16px;
     line-height: 150%;
@@ -140,6 +145,7 @@ ul, ol{
 
 .portfolio-title{
     text-align: center;
+    color: #2E2F42;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -155,6 +161,7 @@ ul, ol{
 
 .portfolio-subtitle{
     font-size: 20px;
+    color: #2E2F42;
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
@@ -162,7 +169,6 @@ ul, ol{
 }
 
 .portfolio-description{
-    color: #434455;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.32px;
@@ -192,5 +198,5 @@ ul, ol{
 }
 
 .logo-footer .logo-web{
-    color: #4D5AE5;
+    color: #2E2F42;
 }
