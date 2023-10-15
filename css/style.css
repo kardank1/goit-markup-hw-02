@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;  
     background-color: #FFFFFF;
+    color: #2E2F42;
 }
 
 a{
@@ -12,7 +13,6 @@ ul, ol{
 }
 
 .logo{
-    color: #2E2F42;
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
@@ -26,13 +26,16 @@ ul, ol{
     color: #4D5AE5;
 }
 
-.menu-item{
-    color: #2E2F42;
+.menu-link{
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.32px;
+}
+
+.menu-link:hover, .menu-link:focus{
+    color: #404BBF;
 }
 
 .main-address-item{
@@ -49,25 +52,29 @@ ul, ol{
 }
 
 .hero-title{
-    color: #FFF;
-text-align: center;
-font-size: 56px;
-font-style: normal;
-font-weight: 700;
-line-height: 107.143%;
-letter-spacing: 1.12px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 107.143%;
+    letter-spacing: 1.12px;
 }
 
 .hero-button{
     border-radius: 4px;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.hero-button:hover, .hero-button:focus{
+    background-color: #404BBF;
 }
 
 .hero-button-text{
     color: #FFFFFF;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.64px;
@@ -78,7 +85,6 @@ letter-spacing: 1.12px;
 }
 
 .benefits-title{
-    color: #2E2F42;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -89,8 +95,6 @@ letter-spacing: 1.12px;
 .benefits-text{
     color: #434455;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 150%;
     letter-spacing: 0.32px;
 }
@@ -100,7 +104,6 @@ letter-spacing: 1.12px;
 }
 
 .team-title{
-    color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-style: normal;
@@ -115,7 +118,6 @@ letter-spacing: 1.12px;
 }
 
 .team-name{
-    color: #2E2F42;
     text-align: center;
     font-size: 20px;
     font-style: normal;
@@ -128,8 +130,6 @@ letter-spacing: 1.12px;
     color: #434455;
     text-align: center;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 150%;
     letter-spacing: 0.32px;
 }
@@ -139,7 +139,6 @@ letter-spacing: 1.12px;
 }
 
 .portfolio-title{
-    color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-style: normal;
@@ -155,7 +154,6 @@ letter-spacing: 1.12px;
 }
 
 .portfolio-subtitle{
-    color: #2E2F42;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -166,8 +164,6 @@ letter-spacing: 1.12px;
 .portfolio-description{
     color: #434455;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 150%;
     letter-spacing: 0.32px;
 }
@@ -180,8 +176,21 @@ letter-spacing: 1.12px;
     color: #F4F4FD;
     text-align: center;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 150%;
     letter-spacing: 0.32px;
+}
+
+.logo-footer{
+    font-family: Raleway;
+    color: #F4F4FD;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116.667%;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo-footer .logo-web{
+    color: #4D5AE5;
 }
